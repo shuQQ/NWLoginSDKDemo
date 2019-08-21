@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592EB13822E94A8300CCEBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EB13722E94A8300CCEBFB /* AppDelegate.m */; };
+		592EB13B22E94A8300CCEBFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EB13A22E94A8300CCEBFB /* ViewController.m */; };
+		592EB13E22E94A8300CCEBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EB13C22E94A8300CCEBFB /* Main.storyboard */; };
+		592EB14022E94A8500CCEBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592EB13F22E94A8500CCEBFB /* Assets.xcassets */; };
+		592EB14322E94A8500CCEBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EB14122E94A8500CCEBFB /* LaunchScreen.storyboard */; };
+		592EB14622E94A8500CCEBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EB14522E94A8500CCEBFB /* main.m */; };
+		592EB15022E94A8500CCEBFB /* NWLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EB14F22E94A8500CCEBFB /* NWLoginDemoTests.m */; };
+		592EB15B22E94A8500CCEBFB /* NWLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EB15A22E94A8500CCEBFB /* NWLoginDemoUITests.m */; };
+		CC706D77D972635A4CD25759 /* libPods-NWLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E07534597ED0A926971AEF2 /* libPods-NWLoginDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592EB14C22E94A8500CCEBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592EB12B22E94A8300CCEBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592EB13222E94A8300CCEBFB;
+			remoteInfo = NWLoginDemo;
+		};
+		592EB15722E94A8500CCEBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592EB12B22E94A8300CCEBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592EB13222E94A8300CCEBFB;
+			remoteInfo = NWLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31208B422CB84B126809DE62 /* Pods-NWLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NWLoginDemo/Pods-NWLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		592EB13322E94A8300CCEBFB /* NWLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592EB13622E94A8300CCEBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		592EB13722E94A8300CCEBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		592EB13922E94A8300CCEBFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		592EB13A22E94A8300CCEBFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		592EB13D22E94A8300CCEBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		592EB13F22E94A8500CCEBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		592EB14222E94A8500CCEBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		592EB14422E94A8500CCEBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592EB14522E94A8500CCEBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		592EB14B22E94A8500CCEBFB /* NWLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592EB14F22E94A8500CCEBFB /* NWLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWLoginDemoTests.m; sourceTree = "<group>"; };
+		592EB15122E94A8500CCEBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592EB15622E94A8500CCEBFB /* NWLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NWLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592EB15A22E94A8500CCEBFB /* NWLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWLoginDemoUITests.m; sourceTree = "<group>"; };
+		592EB15C22E94A8500CCEBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E07534597ED0A926971AEF2 /* libPods-NWLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NWLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38E64A40F2D15B160C06B9C /* Pods-NWLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NWLoginDemo/Pods-NWLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592EB13022E94A8300CCEBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC706D77D972635A4CD25759 /* libPods-NWLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB14822E94A8500CCEBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB15322E94A8500CCEBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592EB12A22E94A8300CCEBFB = {
+			isa = PBXGroup;
+			children = (
+				592EB13522E94A8300CCEBFB /* NWLoginDemo */,
+				592EB14E22E94A8500CCEBFB /* NWLoginDemoTests */,
+				592EB15922E94A8500CCEBFB /* NWLoginDemoUITests */,
+				592EB13422E94A8300CCEBFB /* Products */,
+				A3E1A0C6EFA67729695BA669 /* Pods */,
+				87C904E5B94B20BFDF1578EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		592EB13422E94A8300CCEBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592EB13322E94A8300CCEBFB /* NWLoginDemo.app */,
+				592EB14B22E94A8500CCEBFB /* NWLoginDemoTests.xctest */,
+				592EB15622E94A8500CCEBFB /* NWLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592EB13522E94A8300CCEBFB /* NWLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				592EB13622E94A8300CCEBFB /* AppDelegate.h */,
+				592EB13722E94A8300CCEBFB /* AppDelegate.m */,
+				592EB13922E94A8300CCEBFB /* ViewController.h */,
+				592EB13A22E94A8300CCEBFB /* ViewController.m */,
+				592EB13C22E94A8300CCEBFB /* Main.storyboard */,
+				592EB13F22E94A8500CCEBFB /* Assets.xcassets */,
+				592EB14122E94A8500CCEBFB /* LaunchScreen.storyboard */,
+				592EB14422E94A8500CCEBFB /* Info.plist */,
+				592EB14522E94A8500CCEBFB /* main.m */,
+			);
+			path = NWLoginDemo;
+			sourceTree = "<group>";
+		};
+		592EB14E22E94A8500CCEBFB /* NWLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				592EB14F22E94A8500CCEBFB /* NWLoginDemoTests.m */,
+				592EB15122E94A8500CCEBFB /* Info.plist */,
+			);
+			path = NWLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		592EB15922E94A8500CCEBFB /* NWLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				592EB15A22E94A8500CCEBFB /* NWLoginDemoUITests.m */,
+				592EB15C22E94A8500CCEBFB /* Info.plist */,
+			);
+			path = NWLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		87C904E5B94B20BFDF1578EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E07534597ED0A926971AEF2 /* libPods-NWLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E1A0C6EFA67729695BA669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31208B422CB84B126809DE62 /* Pods-NWLoginDemo.debug.xcconfig */,
+				B38E64A40F2D15B160C06B9C /* Pods-NWLoginDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592EB13222E94A8300CCEBFB /* NWLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592EB15F22E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemo" */;
+			buildPhases = (
+				1CA7A580AFA1FBF31A767328 /* [CP] Check Pods Manifest.lock */,
+				592EB12F22E94A8300CCEBFB /* Sources */,
+				592EB13022E94A8300CCEBFB /* Frameworks */,
+				592EB13122E94A8300CCEBFB /* Resources */,
+				8938272FD5983418724408C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWLoginDemo;
+			productName = NWLoginDemo;
+			productReference = 592EB13322E94A8300CCEBFB /* NWLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592EB14A22E94A8500CCEBFB /* NWLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592EB16222E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemoTests" */;
+			buildPhases = (
+				592EB14722E94A8500CCEBFB /* Sources */,
+				592EB14822E94A8500CCEBFB /* Frameworks */,
+				592EB14922E94A8500CCEBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592EB14D22E94A8500CCEBFB /* PBXTargetDependency */,
+			);
+			name = NWLoginDemoTests;
+			productName = NWLoginDemoTests;
+			productReference = 592EB14B22E94A8500CCEBFB /* NWLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		592EB15522E94A8500CCEBFB /* NWLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592EB16522E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemoUITests" */;
+			buildPhases = (
+				592EB15222E94A8500CCEBFB /* Sources */,
+				592EB15322E94A8500CCEBFB /* Frameworks */,
+				592EB15422E94A8500CCEBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592EB15822E94A8500CCEBFB /* PBXTargetDependency */,
+			);
+			name = NWLoginDemoUITests;
+			productName = NWLoginDemoUITests;
+			productReference = 592EB15622E94A8500CCEBFB /* NWLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592EB12B22E94A8300CCEBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sq;
+				TargetAttributes = {
+					592EB13222E94A8300CCEBFB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					592EB14A22E94A8500CCEBFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 592EB13222E94A8300CCEBFB;
+					};
+					592EB15522E94A8500CCEBFB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 592EB13222E94A8300CCEBFB;
+					};
+				};
+			};
+			buildConfigurationList = 592EB12E22E94A8300CCEBFB /* Build configuration list for PBXProject "NWLoginDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592EB12A22E94A8300CCEBFB;
+			productRefGroup = 592EB13422E94A8300CCEBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592EB13222E94A8300CCEBFB /* NWLoginDemo */,
+				592EB14A22E94A8500CCEBFB /* NWLoginDemoTests */,
+				592EB15522E94A8500CCEBFB /* NWLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592EB13122E94A8300CCEBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592EB14322E94A8500CCEBFB /* LaunchScreen.storyboard in Resources */,
+				592EB14022E94A8500CCEBFB /* Assets.xcassets in Resources */,
+				592EB13E22E94A8300CCEBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB14922E94A8500CCEBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB15422E94A8500CCEBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA7A580AFA1FBF31A767328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NWLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8938272FD5983418724408C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NWLoginDemo/Pods-NWLoginDemo-resources.sh",
+				"${PODS_ROOT}/../../TCYLoginSDK/TCYLoginSDK/Service/Resource/TCYLoginSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TCYLoginSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NWLoginDemo/Pods-NWLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592EB12F22E94A8300CCEBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592EB13B22E94A8300CCEBFB /* ViewController.m in Sources */,
+				592EB14622E94A8500CCEBFB /* main.m in Sources */,
+				592EB13822E94A8300CCEBFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB14722E94A8500CCEBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592EB15022E94A8500CCEBFB /* NWLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592EB15222E94A8500CCEBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592EB15B22E94A8500CCEBFB /* NWLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592EB14D22E94A8500CCEBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592EB13222E94A8300CCEBFB /* NWLoginDemo */;
+			targetProxy = 592EB14C22E94A8500CCEBFB /* PBXContainerItemProxy */;
+		};
+		592EB15822E94A8500CCEBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592EB13222E94A8300CCEBFB /* NWLoginDemo */;
+			targetProxy = 592EB15722E94A8500CCEBFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		592EB13C22E94A8300CCEBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592EB13D22E94A8300CCEBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		592EB14122E94A8500CCEBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592EB14222E94A8500CCEBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		592EB15D22E94A8500CCEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		592EB15E22E94A8500CCEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592EB16022E94A8500CCEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31208B422CB84B126809DE62 /* Pods-NWLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NWLoginDemo",
+				);
+				INFOPLIST_FILE = NWLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		592EB16122E94A8500CCEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38E64A40F2D15B160C06B9C /* Pods-NWLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NWLoginDemo",
+				);
+				INFOPLIST_FILE = NWLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		592EB16322E94A8500CCEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				INFOPLIST_FILE = NWLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NWLoginDemo.app/NWLoginDemo";
+			};
+			name = Debug;
+		};
+		592EB16422E94A8500CCEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				INFOPLIST_FILE = NWLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NWLoginDemo.app/NWLoginDemo";
+			};
+			name = Release;
+		};
+		592EB16622E94A8500CCEBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				INFOPLIST_FILE = NWLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NWLoginDemo;
+			};
+			name = Debug;
+		};
+		592EB16722E94A8500CCEBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT74L7K62;
+				INFOPLIST_FILE = NWLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sq.NWLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NWLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592EB12E22E94A8300CCEBFB /* Build configuration list for PBXProject "NWLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592EB15D22E94A8500CCEBFB /* Debug */,
+				592EB15E22E94A8500CCEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592EB15F22E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592EB16022E94A8500CCEBFB /* Debug */,
+				592EB16122E94A8500CCEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592EB16222E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592EB16322E94A8500CCEBFB /* Debug */,
+				592EB16422E94A8500CCEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592EB16522E94A8500CCEBFB /* Build configuration list for PBXNativeTarget "NWLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592EB16622E94A8500CCEBFB /* Debug */,
+				592EB16722E94A8500CCEBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592EB12B22E94A8300CCEBFB /* Project object */;
+}
